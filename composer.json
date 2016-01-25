@@ -1,0 +1,13 @@
+{
+  "name": "koalamon/xunitreporter",
+  "description": "Tool reporting xunit result files to koalamon",
+  "require": {
+    "php": ">= 5.5.0",
+    "koalamon/koalamonclient": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "Koalamon\\XUnitReporter\\": "src/"
+    }
+  }
+}
