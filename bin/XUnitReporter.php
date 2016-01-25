@@ -54,4 +54,4 @@ $event = new \Koalamon\Client\Reporter\Event($identifier, $system, $status, $too
 
 $reporter->sendEvent($event);
 
-die("\n   Incidents send to koalamon.\n\n");    
+die("\n   Incidents send to koalamon.\n\n");
